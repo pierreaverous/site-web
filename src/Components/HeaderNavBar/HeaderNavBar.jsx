@@ -18,9 +18,9 @@ const HeaderNavBar = () => {
 
 
                     <div>
-                        <Link to="#Actvité" className='HeaderLink'> Activité </Link>
+                        <Link to="/#Actvité" className='HeaderLink'> Activité </Link>
                         <Link to="/" className='HeaderLink'>Home</Link>
-                        <Link to="#voiture" className='HeaderLink'> Contact</Link>
+                        <Link to="/#Contact" className='HeaderLink'> Contact</Link>
                         {/*<Link to="#horaire" className='HeaderLink'> </Link>*/}
                         {/*<Link to="#Contact"> Contact</Link>*/}
 

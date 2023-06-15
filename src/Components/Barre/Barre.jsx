@@ -6,7 +6,7 @@ const Barre = () => {
     return(
         <>
             <div className='container-descriptionHomePage'>
-                <h2 className='title-homepage'> Nos Activités</h2>
+                <h2 className='title-homepage' id="Actvité"> Nos Activités</h2>
                 <div id="barre_fixe">
                     <p></p>
                 </div>
