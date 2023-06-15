@@ -1,7 +1,7 @@
 {
   "name": "site-web",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://pierreaverous.github.io/site-web",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -43,6 +43,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint-scope": "^7.2.0",
     "gh-pages": "^5.0.0"
   }
 }

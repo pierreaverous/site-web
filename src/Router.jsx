@@ -10,8 +10,8 @@ import ActivityDetailPage from "./Pages/PageDetailsActivité/ActivityDetailPage"
 const Router = () => {
 
     return (
-        <BrowserRouter>
-            <Routes  basename={process.env.PUBLIC_URL}>
+        <BrowserRouter  basename={process.env.PUBLIC_URL}>
+            <Routes>
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="/activity/:id" element={<ActivityDetailPage/>} />
                 {/*<Route path="/:id" element={<AccomadationPage/>}/>*/}
@@ -19,7 +19,8 @@ const Router = () => {
                 {/*<Route path="*" element={<ErrorPage/>}/>*/}
             </Routes>
 
-        </BrowserRouter>)
+        </BrowserRouter>
+    )
 
 }
 
