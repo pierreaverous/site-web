@@ -1,0 +1,41 @@
+.backgroundfooter{
+  background-color: #195293;
+  height: 100%;
+  margin-top: 50px;
+}
+.containerFooterText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+}
+.logoFooter{
+  display: flex;
+  justify-content: center;
+
+}
+.footerTextTitre{
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.footerText{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.containerIcon{
+  display: flex;
+  flex-direction: row;
+}
+.FooterIcon{
+  width: 30px;
+  height: 30px;
+  margin-right: 18px;
+  margin-left: 18px;
+  padding-bottom: 50px;
+  color: white;
+}

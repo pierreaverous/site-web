@@ -1,6 +1,7 @@
 
 import HomePage from "./Pages/HomePage/HomePage";
-import {BrowserRouter, Route, Switch, Routes} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import ActivityDetailPage from "./Pages/PageDetailsActivité/ActivityDetailPage";
 
 
 
@@ -12,6 +13,7 @@ const Router = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
+                <Route path="/activity/:id" element={<ActivityDetailPage/>} />
                 {/*<Route path="/:id" element={<AccomadationPage/>}/>*/}
 
                 {/*<Route path="*" element={<ErrorPage/>}/>*/}

@@ -1,0 +1,53 @@
+.NavBar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background-color: #ececec;
+  //box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+  position: fixed;
+  align-items: center;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.container-logo-title{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  margin-left: 2%;
+  width: 100px;
+  height: 100px;
+}
+.logoImg{
+  width: 100%;
+  object-fit: cover;
+ }
+
+.title {
+  width: 310px;
+  font-size: 14px;
+  color: #195293;
+
+}
+
+.HeaderLink{
+  color: black;
+  margin-right: 40px;
+  text-decoration: none;
+  transition: transform 2s ease-in-out;
+  padding-bottom:20px ;
+}
+
+.HeaderLink:hover {
+  font-size: 18px;
+  transform: rotate(360deg);
+  color: #195293;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  font-weight: bold;
+
+}
