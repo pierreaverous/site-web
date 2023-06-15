@@ -11,7 +11,7 @@ const Router = () => {
 
     return (
         <BrowserRouter>
-            <Routes>
+            <Routes  basename={process.env.PUBLIC_URL}>
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="/activity/:id" element={<ActivityDetailPage/>} />
                 {/*<Route path="/:id" element={<AccomadationPage/>}/>*/}
