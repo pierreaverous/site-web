@@ -15,8 +15,13 @@ const Footer = () => {
             <div className="backgroundfooter" id="Contact">
                 <div className="containerFooterText">
                     <p className="footerTextTitre">Contact :</p>
-                    <p className="footerText">Jesuisunsiteweb@gmail.com</p>
                     <p className="footerText">06 45 85 95 65</p>
+                    <a href="mailto:Jesuisunsiteweb@gmail.com" className="footerText">
+                        Jesuisunsiteweb@gmail.com
+                    </a>
+                    <a href="mailto:Jesuisunsiteweb@gmail.com" className="contactButton">
+                        Contactez-nous
+                    </a>
                     <div className="containerIcon">
                         <a href="https://www.instagram.com/terainuitours/">
                             <img className="FooterIcon" src={insta} alt="icon" />
@@ -25,6 +30,7 @@ const Footer = () => {
                             <img className="FooterIcon" src={facebook} alt="icon" />
                         </a>
                     </div>
+
                     <h4  className='Mention' onClick={toggleLegalDisclaimer}>Mentions légales</h4>
                 </div>
 
