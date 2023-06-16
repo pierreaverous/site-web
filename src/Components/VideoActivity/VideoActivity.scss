@@ -1,21 +1,34 @@
 .cardVideo{
-  width: 300px;
+  width: 360px;
   height: auto;
-  margin: 0px 20px 0px 20px;
+  margin: 20px;
+  padding: 20px;
   border-radius: 12px;
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .video{
   width: 100%;
   height: auto;
   border-radius: 12px;
   object-fit: fill;
-
-
-
 }
 
-poster{
+.poster{
   object-fit: fill;
 }
 
+.titreVideo{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.videoDescription{
+  margin-top: 10px;
+  font-size: 16px;
+}

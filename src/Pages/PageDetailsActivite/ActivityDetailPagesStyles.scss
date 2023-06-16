@@ -1,0 +1,22 @@
+.container-video{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+
+}
+.titleVideo{
+  color: white;
+  /* width: 95%; */
+  /* margin-left: 5%; */
+  justify-content: center;
+  padding-top: 50px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.containerActivityVideo{
+  padding-bottom: 80px;
+  background-image: url("../../Assets/Images/blue_light_flow_background.jpg");
+}

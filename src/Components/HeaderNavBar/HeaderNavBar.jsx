@@ -18,9 +18,14 @@ const HeaderNavBar = () => {
 
 
                     <div>
+
+                        <Link to="/activity/Combo" className='HeaderLink'>Combo terre-mer</Link>
+                        <Link to="/activity/Circuit" className='HeaderLink'>Circuit 4x4</Link>
+                        <Link to="/activity/dejeuner" className='HeaderLink'>Déjeuner & transfert motu</Link>
                         <Link to="/#Actvité" className='HeaderLink'> Activité </Link>
                         <Link to="/" className='HeaderLink'>Home</Link>
                         <Link to="/#Contact" className='HeaderLink'> Contact</Link>
+
                         {/*<Link to="#horaire" className='HeaderLink'> </Link>*/}
                         {/*<Link to="#Contact"> Contact</Link>*/}
 

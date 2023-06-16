@@ -1,7 +1,7 @@
 
 import HomePage from "./Pages/HomePage/HomePage";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import ActivityDetailPage from "./Pages/PageDetailsActivité/ActivityDetailPage";
+import ActivityDetailPage from "./Pages/PageDetailsActivite/ActivityDetailPage";
 
 
 
