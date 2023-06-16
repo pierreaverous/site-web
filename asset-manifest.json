@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/site-web/static/css/main.e7b4f14a.css",
-    "main.js": "/site-web/static/js/main.95c3b289.js",
+    "main.css": "/site-web/static/css/main.b332d8b6.css",
+    "main.js": "/site-web/static/js/main.c70999eb.js",
     "static/js/787.f8d3e9ae.chunk.js": "/site-web/static/js/787.f8d3e9ae.chunk.js",
     "static/media/videoQuad.mp4": "/site-web/static/media/videoQuad.05259bed4946bb79c235.mp4",
     "static/media/wallpaperbetter.com_4096x2304.jpg": "/site-web/static/media/wallpaperbetter.com_4096x2304.2cc174aa628548c9a880.jpg",
+    "static/media/blue_light_flow_background.jpg": "/site-web/static/media/blue_light_flow_background.760c4071b0ddd284e091.jpg",
     "static/media/plongé.jpg": "/site-web/static/media/plongé.2b29ee096e7f3abbb2ff.jpg",
     "static/media/surf.jpg": "/site-web/static/media/surf.9cefca585de4995a26f1.jpg",
     "static/media/quad.jpg": "/site-web/static/media/quad.8e8cdd3f6131f88e6292.jpg",
@@ -39,12 +40,12 @@
     "static/media/instagram.svg": "/site-web/static/media/instagram.c2056460bbbf6c051f72df6d7c2fa6dc.svg",
     "index.html": "/site-web/index.html",
     "static/media/facebook.svg": "/site-web/static/media/facebook.bb281c7fe5085e0a931d100e72878110.svg",
-    "main.e7b4f14a.css.map": "/site-web/static/css/main.e7b4f14a.css.map",
-    "main.95c3b289.js.map": "/site-web/static/js/main.95c3b289.js.map",
+    "main.b332d8b6.css.map": "/site-web/static/css/main.b332d8b6.css.map",
+    "main.c70999eb.js.map": "/site-web/static/js/main.c70999eb.js.map",
     "787.f8d3e9ae.chunk.js.map": "/site-web/static/js/787.f8d3e9ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7b4f14a.css",
-    "static/js/main.95c3b289.js"
+    "static/css/main.b332d8b6.css",
+    "static/js/main.c70999eb.js"
   ]
 }
