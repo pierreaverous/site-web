@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site-web/static/css/main.b332d8b6.css",
-    "main.js": "/site-web/static/js/main.c70999eb.js",
+    "main.css": "/site-web/static/css/main.b062dbe1.css",
+    "main.js": "/site-web/static/js/main.28239f75.js",
     "static/js/787.f8d3e9ae.chunk.js": "/site-web/static/js/787.f8d3e9ae.chunk.js",
     "static/media/videoQuad.mp4": "/site-web/static/media/videoQuad.05259bed4946bb79c235.mp4",
     "static/media/wallpaperbetter.com_4096x2304.jpg": "/site-web/static/media/wallpaperbetter.com_4096x2304.2cc174aa628548c9a880.jpg",
@@ -32,20 +32,25 @@
     "static/media/circuit2.jpg": "/site-web/static/media/circuit2.9c1235ecb888251f12e8.jpg",
     "static/media/journé5.jpg": "/site-web/static/media/journé5.d7f52dcdc00d923ffca7.jpg",
     "static/media/randoné.jpg": "/site-web/static/media/randoné.46e50cfe244ebeb612ad.jpg",
+    "static/media/Tripadvisor.png": "/site-web/static/media/Tripadvisor.3ea176692692aa5348f1.png",
     "static/media/quad3.jpeg": "/site-web/static/media/quad3.29d3af2629f19c58d3da.jpeg",
     "static/media/LogoSiteWebAug.png": "/site-web/static/media/LogoSiteWebAug.457938442f30477ec141.png",
     "static/media/jetski.jpeg": "/site-web/static/media/jetski.cb5be825045d6f32f8c9.jpeg",
     "static/media/baladeBateau.jpg": "/site-web/static/media/baladeBateau.6814e15a249d7483d67f.jpg",
     "static/media/quad2.jpg": "/site-web/static/media/quad2.ec8b4ccad56f9b4bb55d.jpg",
+    "static/media/slick.svg": "/site-web/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/site-web/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/site-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/site-web/static/media/slick.295183786cd8a1389865.woff",
     "static/media/instagram.svg": "/site-web/static/media/instagram.c2056460bbbf6c051f72df6d7c2fa6dc.svg",
     "index.html": "/site-web/index.html",
     "static/media/facebook.svg": "/site-web/static/media/facebook.bb281c7fe5085e0a931d100e72878110.svg",
-    "main.b332d8b6.css.map": "/site-web/static/css/main.b332d8b6.css.map",
-    "main.c70999eb.js.map": "/site-web/static/js/main.c70999eb.js.map",
+    "main.b062dbe1.css.map": "/site-web/static/css/main.b062dbe1.css.map",
+    "main.28239f75.js.map": "/site-web/static/js/main.28239f75.js.map",
     "787.f8d3e9ae.chunk.js.map": "/site-web/static/js/787.f8d3e9ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b332d8b6.css",
-    "static/js/main.c70999eb.js"
+    "static/css/main.b062dbe1.css",
+    "static/js/main.28239f75.js"
   ]
 }
