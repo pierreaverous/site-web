@@ -7,6 +7,13 @@
   animation: scrollUpEffect 0.5s ease-out forwards, popEffect 0.3s ease-out forwards;
 
 }
+
+.containerCarousselAvis{
+  padding-bottom: 80px;
+  width: 100%;
+  height: auto;
+  background-image: url("../../Assets/Images/blue_light_flow_background.jpg");
+}
 @keyframes scrollUpEffect {
   0% {
     opacity: 0;
@@ -24,4 +31,11 @@
   100% {
     transform: scale(1);
   }
+}
+
+.titleAvis{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 50px;
 }

@@ -9,6 +9,8 @@ import './HomePage.scss'
 import Barre from "../../Components/Barre/Barre";
 import Footer from "../../Components/Footer/Footer";
 import datas from "../../Data/Data";
+import ReviewCarousel from "../../Components/CarousselAvis/CarousselAvis";
+import ActivityComboTerreMer from "../../Components/ActivityComboTerreMer/ActivityComboTerreMer";
 
 function HomePage() {
 
@@ -27,10 +29,16 @@ function HomePage() {
         <HeaderNavBar/>
           <Banner/>
           <DescriptionHomePage/>
+          <ActivityComboTerreMer/>
           <Barre/>
           <div className='container-card'>
               {dataimg.map(d => <CardActivity dataimg={d}/>)}
           </div>
+          <div className='containerCarousselAvis'>
+              <h2 className="titleAvis"> 5-Star Reviews on TripAdvisor ★★★★★</h2>
+              <ReviewCarousel/>
+          </div>
+
           <Footer/>
       </>
   );
