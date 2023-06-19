@@ -5,11 +5,11 @@ import 'slick-carousel/slick/slick-theme.css';
 import './CarousselAvisStyle.scss'
 import picture from "../../Assets/Images/Tripadvisor.png"
 
-const reviews = [
+const reviews =[
     {
         id: 1,
         picture: picture,
-        username: "John Doe",
+        username: "John",
         date: "12 juin 2023",
         rating: 5,
         comment: "Superbe expérience ! J'ai adoré chaque minute de notre visite."
@@ -17,45 +17,45 @@ const reviews = [
     {
         id: 2,
         picture: picture,
-        username: "Jane Smith",
+        username: "Jane",
         date: "10 juin 2023",
-        rating: 4,
-        comment: "Vraiment amusant et instructif. Je recommande cette visite à tout le monde."
+        rating: 5,
+        comment: "Très agréable et enrichissant. Je recommanderais cette visite à tout le monde."
     },
     {
         id: 3,
         picture: picture,
-        username: "John Doe",
-        date: "12 juin 2023",
+        username: "Jerome",
+        date: "5 juin 2023",
         rating: 5,
-        comment: "Superbe expérience ! J'ai adoré chaque minute de notre visite."
+        comment: "J'ai vraiment apprécié ce tour, les guides étaient très sympathiques et bien informés."
     },
     {
         id: 4,
         picture: picture,
-        username: "John Doe",
-        date: "12 juin 2023",
+        username: "Olivia",
+        date: "8 juin 2023",
         rating: 5,
-        comment: "Superbe expérience ! J'ai adoré chaque minute de notre visite."
+        comment: "Expérience incroyable. Je ne peux pas attendre pour revenir."
     },
     {
         id: 5,
         picture: picture,
-        username: "John Doe",
-        date: "12 juin 2023",
+        username: "David",
+        date: "15 juin 2023",
         rating: 5,
-        comment: "Superbe expérience ! J'ai adoré chaque minute de notre visite."
+        comment: "C'est un must lors de la visite de la ville. Très divertissant et informatif."
     },
     {
         id: 6,
         picture: picture,
-        username: "John Doe",
-        date: "12 juin 2023",
+        username: "Pierre",
+        date: "18 juin 2023",
         rating: 5,
-        comment: "Superbe expérience ! J'ai adoré chaque minute de notre visite."
-    },
-    // Ajoutez autant d'objets d'avis que nécessaire
-];
+        comment: "Absolument adoré. Une expérience inoubliable."
+    }
+]
+
 function SampleNextArrow(props) {
     const { className, onClick } = props;
     return (

@@ -80,8 +80,8 @@
     }
 
     .title {
-      width: 266px;
-      font-size: 14px;
+      width: 220px;
+      font-size: 11px;
       color: #195293;
     }
   }
@@ -138,6 +138,11 @@
 
     .mobile-menu-icon {
       display: none;
+    }
+    .title {
+      width: 266px;
+      font-size: 14px;
+      color: #195293;
     }
   }
 }

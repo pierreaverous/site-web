@@ -65,10 +65,10 @@ const HeaderNavBar = () => {
             <div className='NavBar'>
                 <div className='container-logo-title'>
                     <div className='logo'>
-                        <img className='logoImg' src={logo} alt='Logo Site'/>
+                       <Link to='/'> <img className='logoImg' src={logo} alt='Logo Site'/></Link>
                     </div>
                     <div className='title'>
-                        <h1>TERAINUI TOURS</h1>
+                        <h1 className='titleNavBar'>TERAINUI TOURS</h1>
                     </div>
                 </div>
 
